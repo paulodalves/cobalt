@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Executa a cada 12 horas
+    - cron: '0 4 * * 0'  # Executa a cada 12 horas
   workflow_dispatch:  # Permite execução manual
 
 jobs:
